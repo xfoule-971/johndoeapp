@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () =>{
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-2">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-2 fixed-top">
             <div class="container-fluid">
                 <NavLink to="/" className="navbar-brand text-uppercase">John doe</NavLink>
                 
