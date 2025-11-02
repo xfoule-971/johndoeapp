@@ -26,6 +26,16 @@ const Footer = () =>{
                 <p className="mb-0"><NavLink to="/contact" className="text-light text-decoration-none">Me contacter</NavLink></p>
                 <p className="mb-0"><NavLink to="/mentionslegales" className="text-light text-decoration-none">Mentions légales</NavLink></p>
             </div>
+
+            <div>
+                <h4 className="mb-3">Mes dernières réalisations</h4>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Fresh Food</NavLink></p>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Restaurant Akira</NavLink></p>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Espace bien-être</NavLink></p>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">SEO</NavLink></p>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Création d'une API</NavLink></p>
+                <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Maquette d'un site</NavLink></p>
+            </div>
         </div>
     )
         
