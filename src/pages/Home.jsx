@@ -1,6 +1,7 @@
 import Johnabout from "../assets/images/john-doe-about.jpg";
 
 import Footer from "../components/Footer";
+import Skillbar from "../components/Skillbar";
 
 const Home = () =>{
     return(
@@ -35,6 +36,10 @@ const Home = () =>{
                         Sed tempus, ipsum non posuere convallis, lacus magna tempus enim, et varius ligula erat et erat. 
                         Vestibulum id tristique libero. Vivamus in eleifend urna.
                     </p>
+                </div>
+                
+                <div>
+                    <Skillbar />
                 </div>
             </section>
 
