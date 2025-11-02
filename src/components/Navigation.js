@@ -1,25 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Navigation = () =>{
     return(
-       <nav class="navbar navbar-expand-lg bg-light">
-
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <h3 class="navbar-brand" href="#">John Doe</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">Hidden brand</a>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <Link to="/">Home</Link>
+                        <Link to="/services">Services</Link>
+                        <Link to="/portofolio">Portofolio</Link>
+                        <Link to="/contact">Contact</Link>
+                        <Link to="/mentionslegales">Mentions légales</Link>
                     </ul>
                 </div>
             </div>
