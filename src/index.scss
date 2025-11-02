@@ -6,3 +6,25 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
+h1, h2 , h3 , h4, h5, strong{
+  font-weight: 600;
+}
+
+p, span{
+  font-weight: 400;
+}
+
+/*page d'accueil*/
+
+.hero{
+  background-image: url("./assets/images/hero-bg.jpg");
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__title{
+  font-size: 5em;
+}
