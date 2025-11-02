@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+
 const Home = () =>{
     return(
         <div>
@@ -5,6 +7,7 @@ const Home = () =>{
                 <h1>Bonjour, je suis John Doe</h1>
             </header>
             
+            <Footer />
         </div>
     )
         
