@@ -6,6 +6,11 @@ import Followers from "../assets/icons/followers.png";
 import Following from "../assets/icons/following.png";
 
 const Johnmodal =() =>{
+    {/*blocage du lien localisation*/}
+    const handleClick = (e) =>{
+        e.preventDefault();
+    }
+   
     return(
         <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">
@@ -23,34 +28,35 @@ const Johnmodal =() =>{
                         </p>
                         <hr></hr>
                         <p>
-                            <a href="https://maps.app.goo.gl/FLxFkM4aetUdpMDz9" target="_blank" rel="noopener noreferrer"><img src={Geo} alt="icône"></img></a>
+                            <a href="https://maps.app.goo.gl/FLxFkM4aetUdpMDz9"
+                            onClick={handleClick}
+                            target="_blank" rel="noopener noreferrer"><img src={Geo} alt="icône"></img></a>
                         </p>
                         <hr></hr>
                 
                         <img src={Book} alt="icône"></img>
-                        <span>
+                        <span className="text-light mx-3">
                             As we all know, John Doe's identity is unknow. I just wanted to contribute
                             without being known.
                         </span>
                         <hr></hr>
 
-                        <img src={Box} alt="icône" className="mx-3"></img>
-                        <span>
+                        <img src={Box} alt="icône"></img>
+                        <span className="text-light mx-3">
                             Repositories : 1
                         </span>
                         <hr></hr>
                 
                         <img src={Followers} alt="icône"></img>
-                        <span>
+                        <span className="text-light mx-3">
                             Followers : 19
                         </span>
                         <hr></hr>
                 
-                        <img src={Following}></img>
-                        <span>
+                        <img src={Following} alt="icône"></img>
+                        <span className="text-light mx-3">
                             Following : 0
                         </span>
-                    
                     </div>
                 </div>
                 <div className="modal-footer border-secondary">
