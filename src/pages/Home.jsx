@@ -1,7 +1,7 @@
-import Johnabout from "../assets/images/john-doe-about.jpg";
 
 import Footer from "../components/Footer";
 import Skillbar from "../components/Skillbar";
+import Portrait from "../components/Portrait";
 
 const Home = () =>{
     return(
@@ -11,34 +11,18 @@ const Home = () =>{
                     <div className="text-light text-center z-1">
                         <h1 className="hero__title">Bonjour, je suis John Doe</h1>
                         <h2>Développeur web full stack</h2>
-                        <button type="button" class="btn btn-danger">En savoir plus</button>
+                        <button type="button" className="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            En savoir plus
+                        </button>
                     </div>
                 </div>
                 
             </header>
             
-            <section>
-                <div>
-                    <h3>A propos</h3>
-                    <img src={Johnabout} alt="portait de john"></img>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed tempus, ipsum non posuere convallis, lacus magna tempus enim, et varius ligula erat et erat. 
-                        Vestibulum id tristique libero. Vivamus in eleifend urna.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed tempus, ipsum non posuere convallis, lacus magna tempus enim, et varius ligula erat et erat. 
-                        Vestibulum id tristique libero. Vivamus in eleifend urna.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed tempus, ipsum non posuere convallis, lacus magna tempus enim, et varius ligula erat et erat. 
-                        Vestibulum id tristique libero. Vivamus in eleifend urna.
-                    </p>
-                </div>
-                
-                <div>
+            <section className="container mb-4 mt-4 shadow-lg">
+                <div className="row">
+                    <Portrait />
+                    
                     <Skillbar />
                 </div>
             </section>

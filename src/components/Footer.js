@@ -6,9 +6,9 @@ import Linkedin from "../assets/icons/linkedin-grey.png";
 
 const Footer = () =>{
     return(
-        <div className="bg-dark p-3"> 
-            <div className="text-light">
-                <h5 className="mb-3">John Doe</h5>
+        <div className="row bg-dark p-3"> 
+            <div className="text-light mb-4 col-md-4">
+                <h5 className="mb-2">John Doe</h5>
                 <p className="mb-0">rue Laure Diebold</p>
                 <p className="mb-0">69009 Lon, France</p>
                 <p className="mb-0">10 20 30 40 50</p>
@@ -18,8 +18,8 @@ const Footer = () =>{
                 <img src={Linkedin} alt="icône linkedin"></img>
             </div>
 
-            <div className="text-light">
-                <h5 className="mb-3">Liens utiles</h5>
+            <div className="text-light mb-4 col-md-4">
+                <h5 className="mb-2">Liens utiles</h5>
                 <p className="mb-0"><NavLink to="/" className="text-light text-decoration-none">Accueil</NavLink></p>
                 <p className="mb-0"><NavLink to="/servives" className="text-light text-decoration-none">Services</NavLink></p>
                 <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Portofolio</NavLink></p>
@@ -27,8 +27,8 @@ const Footer = () =>{
                 <p className="mb-0"><NavLink to="/mentionslegales" className="text-light text-decoration-none">Mentions légales</NavLink></p>
             </div>
 
-            <div className="text-light">
-                <h5 className="mb-3">Mes dernières réalisations</h5>
+            <div className="text-light mb-4 col-md-4">
+                <h5 className="mb-2">Mes dernières réalisations</h5>
                 <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Fresh Food</NavLink></p>
                 <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Restaurant Akira</NavLink></p>
                 <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Espace bien-être</NavLink></p>
