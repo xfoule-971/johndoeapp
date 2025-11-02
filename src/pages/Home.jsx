@@ -2,6 +2,7 @@
 import Footer from "../components/Footer";
 import Skillbar from "../components/Skillbar";
 import Portrait from "../components/Portrait";
+import Johnmodal from "../components/Johnmodal";
 
 const Home = () =>{
     return(
@@ -16,7 +17,8 @@ const Home = () =>{
                         </button>
                     </div>
                 </div>
-                
+        
+                <Johnmodal />
             </header>
             
             <section className="container mb-4 mt-4 shadow-lg">

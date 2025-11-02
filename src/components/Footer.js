@@ -9,8 +9,8 @@ const Footer = () =>{
         <div className="row bg-dark p-3"> 
             <div className="text-light mb-4 col-md-4">
                 <h5 className="mb-2">John Doe</h5>
-                <p className="mb-0">rue Laure Diebold</p>
-                <p className="mb-0">69009 Lon, France</p>
+                <p className="mb-0">40 rue Laure Diebold</p>
+                <p className="mb-0">69009 Lyon, France</p>
                 <p className="mb-0">10 20 30 40 50</p>
                 <p>john.doe@gmail.com</p>
                 <img src={Github} alt="icône github"></img>
