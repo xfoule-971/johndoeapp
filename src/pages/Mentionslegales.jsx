@@ -1,3 +1,4 @@
+
 const Mentionslegales = () =>{
     return(
         <div>
@@ -8,6 +9,8 @@ const Mentionslegales = () =>{
                     <h1 className="fw-bold">Mentions légales</h1>
                 </div>
             </header>
+
+            
         </div>
     )
         
