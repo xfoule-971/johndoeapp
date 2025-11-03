@@ -1,10 +1,12 @@
+import Lupe from "../assets/icons/lupe.png";
+
 const Referencement = () =>{
     return(
-        <div class="card" style={{width: '18rem'}}>
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-                <h5 class="card-title">Référencement</h5>
-                <p class="card-text">
+        <div className="card p-2 align-items-center w-25 col-md-4" style={{width: '25rem'}}>
+            <img src={Lupe} className="card-img-top w-25 m-3" alt="icône"/>
+            <div class="card-body text-center">
+                <h5 className="card-title">Référencement</h5>
+                <p className="card-text text-fluid">
                     Le référencement naturel (SEO) est une technique qui consiste
                     à optimiser un site web pour le faire remonter dans les résultats
                     des moteurs de recherche (Google, Bing, Yahoo, etc.). L'objectif
@@ -12,6 +14,6 @@ const Referencement = () =>{
                 </p>
             </div>
         </div>
-    )
+    );
 }
 export default Referencement; 
