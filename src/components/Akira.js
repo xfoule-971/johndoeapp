@@ -6,7 +6,7 @@ const Akira = () =>{
             <img src={Restaurant} className="card-img-top" alt="sushis"/>
             <div class="card-body">
 
-                <h5 class="card-title">Restaurant Akira</h5>
+                <h5 class="card-title fw-bold">Restaurant Akira</h5>
 
                 <p class="card-text">
                     Site de vente de produits frais en ligne

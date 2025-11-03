@@ -1,7 +1,7 @@
 const Skillbar = () =>{
     return(
       <div className="col-12 col-md-6">
-            <h3 className="p-2 mb-4 border-bottom border-primary border-4 fw-semibold">Mes compétences</h3>
+            <h3 className="p-2 mb-4 border-bottom border-primary border-4 fw-bold">Mes compétences</h3>
             <div>
                 <p className="mb-0 mt-3"><strong>HTML5 90%</strong></p>
                 <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">

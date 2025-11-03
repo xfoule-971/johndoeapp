@@ -5,7 +5,7 @@ const Referencement = () =>{
         <div className="card p-2 align-items-center w-25 col-md-4 card-survol" style={{width: '25rem'}}>
             <img src={Lupe} className="card-img-top w-25 m-3" alt="icône"/>
             <div class="card-body text-center">
-                <h5 className="card-title">Référencement</h5>
+                <h5 className="card-title fw-bold">Référencement</h5>
                 <p className="card-text text-fluid">
                     Le référencement naturel (SEO) est une technique qui consiste
                     à optimiser un site web pour le faire remonter dans les résultats

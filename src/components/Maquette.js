@@ -6,7 +6,7 @@ const Maquette = () =>{
             <img src={Working} className="card-img-top" alt="outils du développeur"/>
             <div class="card-body">
 
-                <h5 class="card-title">Maquette d'un site web</h5>
+                <h5 class="card-title fw-bold">Maquette d'un site web</h5>
 
                 <p class="card-text">
                     Création du prototype d'un site

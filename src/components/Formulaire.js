@@ -1,16 +1,36 @@
 
+
 const Formulaire = () =>{
+
      return(
-        <div>
-            <h2>Formulaire de contact</h2>
+        <div className="col-md-6 mb-4">
+            <h2 className="border-bottom border-primary border-4 fw-bold mb-4 p-2">Formulaire de contact</h2>
             
-            <form action="#" method="post">
-                <p><input type="text" name="name" id="name" placeholder="Votre nom" required classNamesName="p-1 w-100 rounded-1 form.control"></input></p>
-                <p><input type="email" name="email" id="email" placeholder="Votre adresse email" required classNamesName="p-1 w-100 rounded-1 form.control"></input></p>
-                <p><input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone" required classNamesName="p-1 w-100 rounded-1 form.control"></input></p>
-                <p><input type="text" name="sujet" id="sujet" placeholder="Sujet" required classNamesName="p-1 w-100 rounded-1 form.control"></input></p>
-                <p><textarea name="message" id="message" rows="13" cols="20" placeholder="Votre message" required classNamesName="p-2 w-100 rounded-1 form.control"></textarea></p>
-                <p><input type="submit" value="Envoyer" classNamesName="btn btn-primary d-block mx-auto"></input></p>
+            <form name="contact" method="post">
+                <p>
+                    <input type="text" name="username" id="username" placeholder="Votre nom" required className="p-1 w-100 rounded-1 form.control"
+                    ></input>
+                </p>
+                <p>
+                    <input type="email" name="email" id="email" placeholder="Votre adresse email" required className="p-1 w-100 rounded-1 form.control"
+                    ></input>
+                </p>
+                <p>
+                    <input type="tel" name="phone" id="phone" placeholder="Votre numéro de téléphone" required className="p-1 w-100 rounded-1 form.control"
+                    ></input>
+                </p>
+                <p>
+                    <input type="text" name="subject" id="subject" placeholder="Sujet" required className="p-1 w-100 rounded-1 form.control"
+                    ></input>
+                </p>
+                <p>
+                    <textarea name="message" id="message" rows="13" cols="20" placeholder="Votre message" required className="p-2 w-100 rounded-1 form.control"
+                    ></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Envoyer" className="btn btn-primary d-block mx-auto"
+                    ></input>
+                </p>
             </form>
         </div>
         

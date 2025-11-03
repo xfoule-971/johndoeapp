@@ -6,7 +6,7 @@ const Strategy = () =>{
             <img src={Design} className="card-img-top" alt="kaleïdoscope de mots"/>
             <div class="card-body">
 
-                <h5 class="card-title">SEO</h5>
+                <h5 class="card-title fw-bold">SEO</h5>
 
                 <p class="card-text">
                     Amélioration du référencement d'un site e-commerce

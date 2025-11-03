@@ -6,7 +6,7 @@ const Zen = () =>{
             <img src={Space} className="card-img-top" alt="bouddha"/>
             <div class="card-body">
 
-                <h5 class="card-title">Espace bien-être</h5>
+                <h5 class="card-title fw-bold">Espace bien-être</h5>
 
                 <p class="card-text">
                     Site de vente de produits frais en ligne

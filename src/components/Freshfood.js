@@ -5,15 +5,15 @@ const Freshfood = () =>{
         <div className="card text-center p-0 mx-3 mb-3 col-md-4 card-survol" style={{width: '18rem'}}>
             <img src={Food} className="card-img-top" alt="vegetables"/>
             
-            <div class="card-body">
+            <div className="card-body">
 
-                <h5 class="card-title">Fresh Food</h5>
+                <h5 className="card-title fw-bold">Fresh Food</h5>
 
-                <p class="card-text">
+                <p className="card-text">
                     Site de vente de produits frais en ligne
                 </p>
 
-                <button class="btn btn-primary hover-shadow-lg">Voir le site</button>
+                <button className="btn btn-primary hover-shadow-lg">Voir le site</button>
             </div>
 
             <div class="card-footer text-muted">

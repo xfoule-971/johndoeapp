@@ -10,8 +10,8 @@ const Home = () =>{
             <header className="hero">
                 <div className="container">
                     <div className="text-light text-center z-1">
-                        <h1 className="hero__title">Bonjour, je suis John Doe</h1>
-                        <h2>Développeur web full stack</h2>
+                        <h1 className="hero__title fw-bold">Bonjour, je suis John Doe</h1>
+                        <h2 className="fw-bold">Développeur web full stack</h2>
                         <button type="button" className="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             En savoir plus
                         </button>
