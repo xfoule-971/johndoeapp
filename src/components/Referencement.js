@@ -2,7 +2,7 @@ import Lupe from "../assets/icons/lupe.png";
 
 const Referencement = () =>{
     return(
-        <div className="card p-2 align-items-center w-25 col-md-4" style={{width: '25rem'}}>
+        <div className="card p-2 align-items-center w-25 col-md-4 card-survol" style={{width: '25rem'}}>
             <img src={Lupe} className="card-img-top w-25 m-3" alt="icône"/>
             <div class="card-body text-center">
                 <h5 className="card-title">Référencement</h5>

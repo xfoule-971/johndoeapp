@@ -10,6 +10,7 @@ h1, h2 , h3 , h4, h5, strong{
   font-weight: 600;
 }
 
+
 p, span{
   font-weight: 400;
 }
@@ -32,4 +33,10 @@ p, span{
   background-image: url("./assets/images/banner.jpg");
   background-position: center;
   height: 50vh;
+}
+
+.card-survol:hover{
+  cursor: pointer;
+  background-color: #efefef;
+  box-shadow: 10px 5px 5px #efefef;
 }
