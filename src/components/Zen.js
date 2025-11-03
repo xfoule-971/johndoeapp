@@ -2,20 +2,21 @@ import Space from "../assets/images/portfolio/espace-bien-etre.jpg";
 
 const Zen = () =>{
     return(
-        <div className="card text-center p-0 mx-3" style={{width: '18rem'}}>
+        <div className="card text-center p-0 mx-3 mb-3 col-md-4" style={{width: '18rem'}}>
             <img src={Space} className="card-img-top" alt="bouddha"/>
-            <div className="card-body">
-                <h5 className="card-title fs-bold">Espace bien-être</h5>
+            <div class="card-body">
 
-                <p className="card-text">
+                <h5 class="card-title">Espace bien-être</h5>
+
+                <p class="card-text">
                     Site de vente de produits frais en ligne
                 </p>
 
-                <a href="#" class="btn btn-primary">Voir le site</a>
+                <button class="btn btn-primary">Voir le site</button>
+            </div>
 
-                <div className="card-footer">
-                    <small>Site réalisé avec LARAVEL</small>
-                </div>
+            <div class="card-footer text-muted">
+                Site réalisé avec LARAVEL
             </div>
         </div>
     );
