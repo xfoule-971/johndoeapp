@@ -2,9 +2,16 @@ import Scrolling from "../components/Scrolling";
 
 import Footer from "../components/Footer";
 
+import {Helmet} from "react-helmet";
+
 const Mentionslegales = () =>{
     return(
         <div>
+            {/*Utilisation de Helmet pour empecher l'indexation de cette page*/}
+            <Helmet>
+                <meta name="robots" content="nindex, nofollow" />
+            </Helmet>
+
             <header>
                 <div className="banner"></div>
 
