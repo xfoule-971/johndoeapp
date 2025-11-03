@@ -69,7 +69,20 @@ const Scrolling = () =>{
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
+
                         <h3 className="fw-bold">Crédits</h3>
+                        <p>
+                            Ce site a été réalisé par John Doe, étudiant 
+                            au <a href="https://www.centre-europeen-formation.fr/" target="_blank" rel="noopener noreferrer">Centre Européen de formation</a>.
+                        </p>
+                        <p>
+                            Les images utilisées sur ce site sont libres de droits et ont été obtenues
+                            sur le site <a href="https://pixabay.com/fr/" target="_blank" rel="noopener noreferrer">Pixabay</a>.
+                        </p>
+                        <p>
+                            La favicon de ce site a été fournie 
+                            par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" target="_blank" rel="noopener noreferrer">John doe Icons erstellt von Freepik - Flaticon</a>.
+                        </p>
                     </div>
                 </div>
             </div>
