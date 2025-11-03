@@ -1,9 +1,11 @@
-import Akira from "../components/Akira";
-import Footer from "../components/Footer";
 import Freshfood from "../components/Freshfood";
+import Akira from "../components/Akira";
+import Zen from "../components/Zen";
 import Strategy from "../components/Strategy";
 import Creation from "../components/Creation";
 import Maquette from "../components/Maquette";
+
+import Footer from "../components/Footer";
 
 const Portofolio = () =>{
     return(
@@ -17,14 +19,19 @@ const Portofolio = () =>{
                 </div>
             </header>
 
-            <section className="container">
-                <div className="row">
-                    <Freshfood />
-                    <Akira />
-                    <Zen />
-                    <Strategy />
-                    <Creation />
-                    <Maquette />
+            <section className="container mt-4 mb-4">
+                <div className="portofolio-grid d-flex flex-wrap justify-content-center">
+                    <div className="row mb-3">
+                        <Freshfood />
+                        <Akira />
+                        <Zen />
+                    </div>
+                
+                    <div className="row mb-3">
+                        <Strategy />
+                        <Creation />
+                        <Maquette />
+                    </div>
                 </div>
             </section>
 

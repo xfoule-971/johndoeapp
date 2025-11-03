@@ -1,12 +1,21 @@
+import Restaurant from "../assets/images/portfolio/restaurant-japonais.jpg";
 
 const Akira = () =>{
     return(
-        <div class="card" style={{width: '18rem'}}>
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div className="card text-center p-0 mx-3" style={{width: '18rem'}}>
+            <img src={Restaurant} className="card-img-top" alt="sushis"/>
+            <div className="card-body">
+                <h5 className="card-title fs-bold">Restaurant Akira</h5>
+
+                <p className="card-text">
+                    Site de vente de produits frais en ligne
+                </p>
+
+                <a href="#" class="btn btn-primary">Voir le site</a>
+
+                <div className="card-footer">
+                    <small>Site réalisé avec Wordpress</small>
+                </div>
             </div>
         </div>
     );
