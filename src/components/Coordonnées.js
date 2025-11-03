@@ -11,19 +11,19 @@ const Coordonnées = () =>{
                 <p>John Doe</p>
                 <p className="mb-0">
                     <img src={Plan} alt="icône"></img>
-                    <span>40 rue Laure Diebold</span>
+                    <span className="mx-2">40 rue Laure Diebold</span>
                 </p>
                 <p className="mb-0">
                     <img src={Geo} alt="icône"></img>
-                    <span>69009 Lyon, France</span>
+                    <span className="mx-2">69009 Lyon, France</span>
                 </p>
                 <p className="mb-0">
                     <img src={Phone} alt="icône"></img>
-                    <span>10 20 30 40 50</span>
+                    <span className="mx-2">10 20 30 40 50</span>
                 </p>
                 <p>
                     <img src={Fenetre} alt="icône"></img>
-                    <span>john.doe@gmail.com</span>
+                    <span className="mx-2">john.doe@gmail.com</span>
                 </p>
                 <p className="embed.responsive embed.responsive-16by9">
                     <iframe 

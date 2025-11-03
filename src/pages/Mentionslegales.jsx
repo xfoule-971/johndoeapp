@@ -1,3 +1,6 @@
+import Scrolling from "../components/Scrolling";
+
+import Footer from "../components/Footer";
 
 const Mentionslegales = () =>{
     return(
@@ -10,7 +13,11 @@ const Mentionslegales = () =>{
                 </div>
             </header>
 
-            
+            <section className="container mt-3 mb-3">
+                 <Scrolling />
+            </section>
+           
+            <Footer />   
         </div>
     )
         

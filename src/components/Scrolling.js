@@ -1,17 +1,36 @@
+import Plan from "../assets/icons/plan-dark.png";
+import Geo from "../assets/icons/geoloc-dark.png";
+import Phone from "../assets/icons/iphone.png";
+import Fenetre from "../assets/icons/adresse-dark.png";
 
-
-const Accordeon = () =>{
+const Scrolling = () =>{
     return(
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                        Editeur du site
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <h3>John Doe</h3>
+                        <p className="mb-0">
+                            <img src={Plan} alt="icône"></img>
+                            <span className="mx-2">40 rue Laure Diebold</span>
+                        </p>
+                        <p className="mb-0">
+                            <img src={Geo} alt="icône"></img>
+                            <span className="mx-2">69009 Lyon, France</span>
+                        </p>
+                        <p className="mb-0">
+                            <img src={Phone} alt="icône"></img>
+                            <span className="mx-2">10 20 30 40 50</span>
+                        </p>
+                        <p>
+                            <img src={Fenetre} alt="icône"></img>
+                            <span className="mx-2">john.doe@gmail.com</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -24,7 +43,7 @@ const Accordeon = () =>{
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>This is the second item's accordion body.</strong>
                     </div>
                 </div>
             </div>
@@ -37,11 +56,11 @@ const Accordeon = () =>{
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>This is the third item's accordion body.</strong>
                     </div>
                 </div>
             </div>
         </div>
     );
 }
-export default Accordeon;
+export default Scrolling;
