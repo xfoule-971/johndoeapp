@@ -65,6 +65,6 @@ const Johnmodal =() =>{
                 </div>
             </div>
         </div>
-    )
+    );
 }
 export default Johnmodal;

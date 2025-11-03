@@ -37,7 +37,7 @@ const Footer = () =>{
                 <p className="mb-0"><NavLink to="/portofolio" className="text-light text-decoration-none">Maquette d'un site</NavLink></p>
             </div>
         </div>
-    )
+    );
         
 }
 

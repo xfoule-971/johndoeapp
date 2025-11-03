@@ -37,6 +37,6 @@ const Skillbar = () =>{
                 </div>
             </div>
         </div>
-    )
+    );
 }
 export default Skillbar;

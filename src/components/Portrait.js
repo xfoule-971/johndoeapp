@@ -21,8 +21,7 @@ const Portrait = () =>{
                 Vestibulum id tristique libero. Vivamus in eleifend urna.
             </p>
         </div>
-    )
-        
+    );       
 }
 
 export default Portrait;
