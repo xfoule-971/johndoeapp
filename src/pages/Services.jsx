@@ -16,14 +16,16 @@ const Services = () =>{
             </header>
            
            <section className="container mt-4 mb-4">
-                <div className="row">
-                    
-                    <Design />
+                <div className="row d-flex flex-wrap justify-content-center">
+                   
+                        <Design />
 
-                    <Devweb />
+                        <Devweb />
 
-                    <Referencement />
+                        <Referencement />
+                  
                 </div>
+                
            </section>
             
             <Footer />

@@ -5,6 +5,11 @@ import Twitter from "../assets/icons/twitter-grey.png";
 import Linkedin from "../assets/icons/linkedin-grey.png";
 
 const Footer = () =>{
+    {/*blocage des liens twitter et linkedin*/}
+    const handleClick = (e) =>{
+        e.preventDefault();
+    }
+
     return(
         <div className="row bg-dark p-3"> 
             <div className="text-light mb-4 col-md-4">
@@ -13,9 +18,20 @@ const Footer = () =>{
                 <p className="mb-0">69009 Lyon, France</p>
                 <p className="mb-0">10 20 30 40 50</p>
                 <p>john.doe@gmail.com</p>
-                <img src={Github} alt="icône github"></img>
-                <img src={Twitter} alt="icône twitter" className="mx-2"></img>
-                <img src={Linkedin} alt="icône linkedin"></img>
+
+                <a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer">
+                    <img src={Github} alt="icône github" className="socialnetwork"></img>
+                </a>
+                <a href="https://x.com/"
+                onClick={handleClick}
+                target="_blank" rel="noopener noreferrer">
+                    <img src={Twitter} alt="icône twitter" className="mx-2 socialnetwork"></img>
+                </a>
+                <a href="https://www.linkedin.com/"
+                onClick={handleClick}
+                target="_blank" rel="noopener noreferrer">
+                    <img src={Linkedin} alt="icône linkedin" className="socialnetwork"></img>
+                </a>
             </div>
 
             <div className="text-light mb-4 col-md-4">

@@ -29,14 +29,32 @@ p, span{
   }
 }
 
+/**/
+
+
+
+/*la bannire des pages : services, portofolio, contact et mentions légales*/
 .banner{
   background-image: url("./assets/images/banner.jpg");
   background-position: center;
   height: 50vh;
 }
 
+/*survol des cards*/
 .card-survol:hover{
   cursor: pointer;
   background-color: #efefef;
   box-shadow: 10px 5px 5px #efefef;
+}
+
+/*blanchisssement des icônes de réseaux sociaux*/
+.socialnetwork:hover{
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/*surgars des liens <a>*/
+a:hover{
+  cursor: pointer;
+  font-weight: bolder;
 }
