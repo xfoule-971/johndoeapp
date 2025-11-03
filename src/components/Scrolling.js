@@ -3,17 +3,20 @@ import Geo from "../assets/icons/geoloc-dark.png";
 import Phone from "../assets/icons/iphone.png";
 import Fenetre from "../assets/icons/adresse-dark.png";
 
+import World from "../assets/icons/world.png";
+
 const Scrolling = () =>{
     return(
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <div className="accordion" id="accordionExample">
+            <div className="accordion-item">
+                <h2 className="accordion-header" id="headingOne">
+                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Editeur du site
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div className="accordion-body">
+                        
                         <h3>John Doe</h3>
                         <p className="mb-0">
                             <img src={Plan} alt="icône"></img>
@@ -35,28 +38,38 @@ const Scrolling = () =>{
                 </div>
             </div>
             
-            <div class="accordion-item">
+            <div className="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Hébergeur
                     </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong>
+                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div className="accordion-body">
+
+                        <h3 className="fw-bold">alwaysdata</h3>
+                        <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
+                        <p>
+                            <img src={World} alt="icône"></img>
+                            <span className="mx-2">
+                                <a href="https://www.alwaysdata.com/fr/" target="_blank" rel="noopener noreferrer">
+                                    www.alwaysdata.com
+                                </a>
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
             
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
+            <div className="accordion-item">
+                <h2 className="accordion-header" id="headingThree">
+                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Crédits
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong>
+                    <div className="accordion-body">
+                        <h3 className="fw-bold">Crédits</h3>
                     </div>
                 </div>
             </div>

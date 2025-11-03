@@ -13,7 +13,7 @@ const Mentionslegales = () =>{
                 </div>
             </header>
 
-            <section className="container mt-3 mb-3">
+            <section className="container mt-5 mb-5">
                  <Scrolling />
             </section>
            
