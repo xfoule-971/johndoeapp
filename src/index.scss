@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght,YTLC@0,6..12,200..1000,491;1,6..12,200..1000,491&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1, h2 , h3 , h4, h5, strong{
+  font-weight: 600;
+}
+
+
+p, span{
+  font-weight: 400;
+}
+
+/*page d'accueil*/
+.hero{
+  background-image: url("./assets/images/hero-bg.jpg");
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero__title{
+    font-size: 2.5em;
+  }
+}
+
+/**/
+
+
+
+/*la bannire des pages : services, portofolio, contact et mentions légales*/
+.banner{
+  background-image: url("./assets/images/banner.jpg");
+  background-position: center;
+  height: 50vh;
+}
+
+/*survol des cards*/
+.card-survol:hover{
+  cursor: pointer;
+  background-color: #efefef;
+  box-shadow: 10px 5px 5px #efefef;
+}
+
+/*blanchisssement des icônes de réseaux sociaux*/
+.socialnetwork:hover{
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/*surgars des liens <a>*/
+a:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
